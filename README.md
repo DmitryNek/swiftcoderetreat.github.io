@@ -1,1 +1,3 @@
-# Swift CodeRetreat http://swiftcoderetreat.com
+### Swift CodeRetreat
+
+ http://swiftcoderetreat.com
