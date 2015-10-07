@@ -1,0 +1,4 @@
+- [ ] Build site in Octopress (?) with layout and subpages
+- [ ] Has to look similar to http://jscoderetreat.com
+- [ ] Create a logo
+- [ ] Add instructions how to send a PR for events
