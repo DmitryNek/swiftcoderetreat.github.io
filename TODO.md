@@ -1,4 +1,4 @@
-- [ ] Build site in [Swig](https://www.npmjs.com/package/swig) with layout and sub pages
+- [ ] Build site in [Jekyll](https://jekyllrb.com) with a master layout and sub pages
 - [ ] Has to look similar to http://jscoderetreat.com
 - [ ] Create a logo
 - [ ] Add instructions how to send a PR for events
