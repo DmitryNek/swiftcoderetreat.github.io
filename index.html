@@ -1,1 +1,75 @@
-<h2>Swift.Hello()</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Swiftcoderetreat</title>
+    <style type="text/css">
+        @-webkit-keyframes typing {
+            from { width: 100% }
+            to { width:0 }
+        }
+
+        @-webkit-keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: black }
+        }
+
+        @-moz-keyframes typing {
+            from { width: 100% }
+            to { width:0 }
+        }
+
+        @-moz-keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: black }
+        }
+
+        @keyframes typing {
+            from { width: 100% }
+            to { width:0 }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: black }
+        }
+
+        body { 
+            font-family: monospace;
+            background: white;
+        }
+
+        h1 { 
+            position: relative;
+            float: left;
+            font-size: 150%;
+        }
+
+        h1 span {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 0;
+            background: white;
+            border-left: .1em solid black;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-animation: typing 10s steps(13, end), blink-caret 1s step-end infinite;
+            -moz-animation: typing 10s steps(13, end), blink-caret 1s step-end infinite;
+            animation: typing 10s steps(13, end), blink-caret 1s step-end infinite;
+        }
+
+        .wrapper {
+            display: flex;
+            min-height: 24em;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Swift.Hello()<span>&nbsp;</span></h1>
+    </div>
+</body>
+</html>
